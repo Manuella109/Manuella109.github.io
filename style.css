@@ -1,0 +1,106 @@
+/*CABEÇALHO E GERAL*/
+html {
+    background-color: rgb(47, 45, 67);
+    padding: 0;
+    margin: 0;
+
+}
+header {
+    background-color: #302f4a;
+
+}
+
+#cabecalho {
+    padding: 24px;
+    font-size:20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cabecalho-body {
+    padding: 18;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/*IMAGENS*/
+.img1 {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    right: 10px;
+    left: 70px;
+    top: 60px;
+
+
+}
+/*RODAPÉ DA PÁGINA*/
+.footer1 {
+    padding: 10px;
+    text-align: center;
+    background-color:#302f4a;
+}
+
+.ESTUDANTE-MANU{
+    width: 85px;;
+}
+
+.Estudante-ber{
+    width: 110px;
+}
+.Estudante-Sa{
+    width: 64px;
+}
+.Estudante-Gu{
+    width: 60px;
+}
+
+/*NAVEGAÇÃO E LINKS*/
+nav {
+    top: 110px;
+    text-align: center;
+}
+
+nav li {
+    margin: 0 0 0 15px;
+    display: inline;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: #010101;
+
+}
+
+nav a:hover {
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+}
+
+.estudantes-pu {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% 
+
+}
+
+
+.estudante-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+
+
+.copyright { 
+    padding: 1px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cep21 {
+    width: 125px;
+}
